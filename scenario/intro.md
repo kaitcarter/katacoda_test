@@ -1,9 +1,7 @@
-This scenario explains the different aspects of launching a Kubernetes cluster.
+For this demo environment we have two riak nodes. 
 
-The environment has a Docker installation configured, running on a host called _docker_. Everything else required we'll launch as containers.
-
-More information can be found at [http://kubernetes.io/v1.1/docs/getting-started-guides/](http://kubernetes.io/v1.1/docs/getting-started-guides/)
-
-Here's a diagram of what the final cluster will look like:
-
-![k8s Single Node on Docker](/images/courses/kubernetes/k8s-singlenode-docker.png)
+1. We will start both nodes.
+2. Join the two nods
+3. Plan the Cluster.
+4. Commit the changes. 
+5. Check member-status.
