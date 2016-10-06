@@ -1,41 +1,29 @@
 {
-    "title": "Launch Kubernetes Cluster",
-    "description": "Learn how to launch a Kubernetes cluster including DNS and Kube UI",
+    "title": "Create a Riak Cluster",
+    "description": "Learn how to launch a Riak cluster",
     "difficulty": "beginner",
-    "time": "10-15 minutes",
+    "time": "20-25 minutes",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Etcd",
+                "title": "Start the Riak Node",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - API Server",
+                "title": "Join Nodes",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Master",
+                "title": "Plan Cluster",
                 "text": "step3.md"
             },
             {
-                "title": "Step 4 - Proxy",
+                "title": "Commit Plan",
                 "text": "step4.md"
             },
             {
-                "title": "Step 5 - Kubectl",
+                "title": "Check Member Status",
                 "text": "step5.md"
-            },
-            {
-                "title": "Step 6 - KubeDNS / SkyDNS",
-                "text": "step6.md"
-            },
-            {
-                "title": "Step 7 - Kube UI",
-                "text": "step7.md"
-            },
-            {
-                "title": "Step 8 - Health Checks",
-                "text": "step8.md"
             }
         ],
         "intro": {
@@ -52,10 +40,10 @@
     ],
     "environment": {
         "uilayout": "terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using Riak `launch.sh`\u001b[m\r\n"
     },
     "backend": {
         "port": 8080,
-        "imageid": "kubernetes"
+        "imageid": "docker"
     }
 }
